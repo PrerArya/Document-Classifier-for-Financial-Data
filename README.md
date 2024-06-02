@@ -2,15 +2,24 @@
 This repository contains a machine learning solution for classifying tables from financial statements into several categories, including Income Statements, Balance Sheets, Cash Flows, Notes, and Others. The solution is designed to handle structured and semi-structured data in HTML and PDF formats.
 Features
 
-## Data Ingestion: Load and convert HTML files to PDF format for data exploration and quality purposes.
-## Data Extraction: Extract text data from PDF files or parse it directly from HTML documents.
-## Data Preprocessing: Preprocess the extracted text by converting it to lowercase, removing special characters, stop words, and whitespaces. Normalize and tokenize the text data.
-## Feature Engineering: Create a DataFrame with labels, extracted text, and identifiers (maximum occurring five terms in each document type for classification purposes).
-## Data Balancing: Apply oversampling methods to preprocess the data and address imbalance, if present.
-## Feature Vectorization: Convert text data to numerical form using TF-IDF vectorization.
-## Model Training: Train three separate machine learning models using Random Forests, Naive Bayes, and XGBoost algorithms.
-## Model Persistence: Save the trained models for future use.
-## Model Testing: Extract and preprocess data from a sample file, vectorize the text data, and pass it through the trained models for prediction.
+## Data Ingestion: 
+Load and convert HTML files to PDF format for data exploration and quality purposes.
+## Data Extraction: 
+Extract text data from PDF files or parse it directly from HTML documents.
+## Data Preprocessing: 
+Preprocess the extracted text by converting it to lowercase, removing special characters, stop words, and whitespaces. Normalize and tokenize the text data.
+## Feature Engineering: 
+Create a DataFrame with labels, extracted text, and identifiers (maximum occurring five terms in each document type for classification purposes).
+## Data Balancing: 
+Apply oversampling methods to preprocess the data and address imbalance, if present.
+## Feature Vectorization: 
+Convert text data to numerical form using TF-IDF vectorization.
+## Model Training: 
+Train three separate machine learning models using Random Forests, Naive Bayes, and XGBoost algorithms.
+## Model Persistence: 
+Save the trained models for future use.
+## Model Testing: 
+Extract and preprocess data from a sample file, vectorize the text data, and pass it through the trained models for prediction.
 
 # Getting Started
 Clone the repository:
