@@ -43,4 +43,3 @@ The trained models achieved the following accuracies on the given problem:
 
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-License
