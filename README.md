@@ -35,11 +35,11 @@ Prepare your data in HTML or PDF format.
 # Performance
 The trained models achieved the following accuracies on the given problem:
 
-## Random Forest: 98% accuracy
-## Naive Bayes: 91% accuracy
-## XGBoost: 98% accuracy
+ Random Forest: 98% accuracy
+ Naive Bayes: 91% accuracy
+ XGBoost: 98% accuracy
 
-The Random Forest and XGBoost algorithms performed exceptionally well, achieving a 98% accuracy rate.
+### The Random Forest and XGBoost algorithms performed exceptionally well, achieving a 98% accuracy rate.
 
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
